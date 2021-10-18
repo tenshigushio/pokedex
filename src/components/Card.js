@@ -1,13 +1,11 @@
-import React from 'react';
 
-const Card = ({ name, ability, id }) => {
+
+const Card = () => {
   return (
-    <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
-      <img alt='robots' src={`https://assets.pokemon.com/assets/cms2/img/pokedex/full/${id}.png?size=200x200`} />
+    <div className='tc grow bg-black br3 pa3 ma2 dib bw2 shadow-5'>
+      <img alt='pokemon' src={`https://assets.pokemon.com/assets/cms2/img/pokedex/full/1.png`} />
       <div>
-        <p>{id}</p>
-        <h2>{name}</h2>
-        <p>{ability}</p>
+        
       </div>
     </div>
   );

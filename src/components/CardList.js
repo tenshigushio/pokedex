@@ -1,21 +1,10 @@
 import React from 'react';
 import Card from './Card';
 
-const CardList = ({ pokedex }) => {
+function CardList () {
   return (
     <div>
-      {
-        pokedex.map((pokemon, i) => {
-          return (
-            <Card
-              key={i}
-              id={pokedex[i].id}
-              name={pokedex[i].name}
-              ability={pokedex[i].ability}
-              />
-          );
-        })
-      }
+      <Card />
     </div>
   );
 }
